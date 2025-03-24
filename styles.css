@@ -1,0 +1,37 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+header, nav, footer {
+  background: #003366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+main {
+  padding: 2rem;
+}
+.product, form {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: white;
+  border: 1px solid #ccc;
+}
+button {
+  padding: 0.5rem 1rem;
+  background: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
